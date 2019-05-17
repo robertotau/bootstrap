@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="charset" content="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BootStrap   - Primeiro Exemplo</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<style type="text/css">
+		div{
+			border: 1px solid #000;
+			min-height: 50px;
+
+		}
+		.div1{
+			background-color: blue;
+			min-height: 100px;
+		}
+		.div2{
+			background-color: red;
+			min-height: 100px;
+		}
+		.div3{
+			background-color: black;
+			min-height: 300px;
+		}
+		.div4{
+			background-color: yellow;
+			min-height: 300px;
+		}
+		.div5{
+			background-color: green;
+			min-height: 100px;
+		}
+		@media screen and (max-width: 576px) {
+			.div1{
+				min-height: 160;
+			}
+			.div2{
+				min-height: 360;
+			}
+		}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col-sm-4 col-xs-12 div1">
+				A
+				</div>
+				<div class="col-sm-8 col-xs-12 div2">
+				B
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-8 col-xs-12 div3">
+				C
+				</div>
+				<div class="col-sm-4 d-none d-sm-block div4">
+				D
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 div5">
+				E
+				</div>
+				
+			</div>
+
+	</body>
+</html>
